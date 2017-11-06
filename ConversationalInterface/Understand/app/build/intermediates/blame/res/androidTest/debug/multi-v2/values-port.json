@@ -1,6 +1,28 @@
 {
     "logs": [
         {
+            "outputFile": "/home/alberto/NPI/ConversationalInterface/Understand/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/home/alberto/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/86c580db3aaec4c3d9820441957de92b/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "280",
+                        "endColumns": "55",
+                        "endOffsets": "331"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "/home/alberto/Documentos/Universidad/NPI/P1/Understand/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-port/values-port.xml",
             "map": [
                 {

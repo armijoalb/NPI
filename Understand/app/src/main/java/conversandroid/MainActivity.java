@@ -97,7 +97,7 @@ public class MainActivity extends VoiceActivity {
 		//can use the new constructor without that parameter or keep this one which accepts any
 		//subscription key
 		final AIConfiguration config = new AIConfiguration(accessToken,
-				subscriptionKey, AIConfiguration.SupportedLanguages.English,
+				subscriptionKey, AIConfiguration.SupportedLanguages.Spanish,
 				AIConfiguration.RecognitionEngine.System);
 		aiDataService = new AIDataService(this, config);
 	}

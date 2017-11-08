@@ -4,19 +4,27 @@
     android:layout_height="fill_parent"
     android:background="#ffffff"
     android:orientation="vertical"
-    android:paddingBottom="5dp" >
+    android:paddingBottom="10dp"
+    android:paddingTop="5dp">
 
     <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="30sp"
+        android:text="Pescador de Barbate"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:id="@+id/resultTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/resultTextView"
-        android:textSize="20sp"
-        android:background="#d2fafa"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_below="@+id/textView"
+        android:background="#d2fafa"
+        android:textSize="20sp" />
 
     <ImageButton
         android:id="@+id/fishermanButton"
@@ -30,10 +38,9 @@
         android:id="@+id/languageButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:scaleType="center"
-        android:src="@drawable/rsz_espania" />
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/flag_es" />
 
 </RelativeLayout>

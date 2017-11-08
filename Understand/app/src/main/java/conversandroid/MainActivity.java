@@ -135,7 +135,7 @@ public class MainActivity extends VoiceActivity {
 
 	private void changeDisplayedLanguage(ImageButton bttn){
 		if(spanishLanguage == 1) {
-			bttn.setImageResource(R.drawable.rsz_reino_unido);
+			bttn.setImageResource(R.mipmap.flag_uk);
 			AIConfiguration config = new AIConfiguration(accessToken,
 					subscriptionKey, AIConfiguration.SupportedLanguages.English,
 					AIConfiguration.RecognitionEngine.System);
@@ -146,7 +146,7 @@ public class MainActivity extends VoiceActivity {
 					subscriptionKey, AIConfiguration.SupportedLanguages.Spanish,
 					AIConfiguration.RecognitionEngine.System);
 			aiDataService = new AIDataService(this, config);
-			bttn.setImageResource(R.drawable.rsz_espania);
+			bttn.setImageResource(R.mipmap.flag_es);
 			spanishLanguage = 1;
 		}
 	}
@@ -202,7 +202,7 @@ public class MainActivity extends VoiceActivity {
 		button.setText(getResources().getString(R.string.speechbtn_listening)); //Changes the button's message to the text obtained from the resources folder
         button.getBackground().setColorFilter(ContextCompat.getColor(this, R.color.speechbtn_listening),PorterDuff.Mode.MULTIPLY);  //Changes the button's background to the color obtained from the resources folder
 		*/
-		Toast listeningNotification = Toast.makeText(MainActivity.this,"Escuchando",Toast.LENGTH_LONG);
+		Toast listeningNotification = Toast.makeText(MainActivity.this,"Escuchando...",Toast.LENGTH_LONG);
 		listeningNotification.show();
 	}
 
@@ -212,7 +212,7 @@ public class MainActivity extends VoiceActivity {
 	 * 		* It changes the color and the message of the speech button
 	 */
 	private void changeButtonAppearanceToDefault(){
-		Toast finishNotification = Toast.makeText(MainActivity.this,"He terminado de escuchar",Toast.LENGTH_LONG);
+		Toast finishNotification = Toast.makeText(MainActivity.this,"¡Listo!",Toast.LENGTH_LONG);
 		finishNotification.show();
 	}
 

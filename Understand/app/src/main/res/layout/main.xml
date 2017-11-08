@@ -6,13 +6,6 @@
     android:orientation="vertical"
     android:paddingBottom="5dp" >
 
-    <Button
-        android:id="@+id/speech_btn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/speechbtn_default"
-        android:textSize="30sp"/>
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -27,10 +20,20 @@
 
     <ImageButton
         android:id="@+id/fishermanButton"
-        android:layout_width="218dp"
-        android:layout_height="232dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:scaleType="centerCrop"
         android:src="@drawable/images" />
+
+    <ImageButton
+        android:id="@+id/languageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="center"
+        android:src="@drawable/rsz_espania" />
 
 </RelativeLayout>

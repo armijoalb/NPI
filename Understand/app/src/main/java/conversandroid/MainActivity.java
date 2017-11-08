@@ -73,6 +73,7 @@ public class MainActivity extends VoiceActivity {
 	private static Integer ID_PROMPT_QUERY = 0;	//Id chosen to identify the prompts that involve posing questions to the user
 	private static Integer ID_PROMPT_INFO = 1;	//Id chosen to identify the prompts that involve only informing the user
 	private long startListeningTime = 0; // To skip errors (see processAsrError method)
+	private int spanishLanguage = 1;
 
 	/**
 	 * Sets up the activity initializing the GUI, the ASR and TTS
@@ -90,6 +91,7 @@ public class MainActivity extends VoiceActivity {
 
 		//Set up the speech button
 		setSpeakButton();
+		setLanguageButton();
 
 		//Set up text view to display results
 		resultTextView = (TextView) findViewById(R.id.resultTextView);
@@ -119,6 +121,34 @@ public class MainActivity extends VoiceActivity {
 					startListening();
 			}
 		});
+	}
+
+	private void setLanguageButton(){
+		final ImageButton languageButton = (ImageButton) findViewById(R.id.languageButton);
+		languageButton.setOnClickListener(new View.OnClickListener(){
+			@Override
+			public void onClick(View v){
+				changeDisplayedLanguage(languageButton);
+			}
+		});
+	}
+
+	private void changeDisplayedLanguage(ImageButton bttn){
+		if(spanishLanguage == 1) {
+			bttn.setImageResource(R.drawable.rsz_reino_unido);
+			AIConfiguration config = new AIConfiguration(accessToken,
+					subscriptionKey, AIConfiguration.SupportedLanguages.English,
+					AIConfiguration.RecognitionEngine.System);
+			aiDataService = new AIDataService(this, config);
+			spanishLanguage = 0;
+		}else{
+			AIConfiguration config = new AIConfiguration(accessToken,
+					subscriptionKey, AIConfiguration.SupportedLanguages.Spanish,
+					AIConfiguration.RecognitionEngine.System);
+			aiDataService = new AIDataService(this, config);
+			bttn.setImageResource(R.drawable.rsz_espania);
+			spanishLanguage = 1;
+		}
 	}
 
 	/**
@@ -182,9 +212,8 @@ public class MainActivity extends VoiceActivity {
 	 * 		* It changes the color and the message of the speech button
 	 */
 	private void changeButtonAppearanceToDefault(){
-		Button button = (Button) findViewById(R.id.speech_btn); //Obtains a reference to the button
-		button.setText(getResources().getString(R.string.speechbtn_default)); //Changes the button's message to the text obtained from the resources folder
-        button.getBackground().setColorFilter(ContextCompat.getColor(this, R.color.speechbtn_default),PorterDuff.Mode.MULTIPLY); 	//Changes the button's background to the color obtained from the resources folder
+		Toast finishNotification = Toast.makeText(MainActivity.this,"He terminado de escuchar",Toast.LENGTH_LONG);
+		finishNotification.show();
 	}
 
 	/**
@@ -317,7 +346,11 @@ public class MainActivity extends VoiceActivity {
 
 					String respuesta = aiResponse.getResult().getFulfillment().getSpeech();
 					try {
-						speak(respuesta,1);
+						if(spanishLanguage == 1) {
+							speak(respuesta, 1);
+						}else{
+							speak(respuesta,"EN",1);
+						}
 					} catch (Exception e) {
 						speak("Lo siento, no te he entendido.No puedo responderte",-1);
 						e.printStackTrace();

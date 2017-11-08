@@ -33,6 +33,7 @@ import android.support.v4.content.ContextCompat;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -109,7 +110,7 @@ public class MainActivity extends VoiceActivity {
 	private void setSpeakButton() {
 
 		// gain reference to speak button
-		Button speak = (Button) findViewById(R.id.speech_btn);
+		ImageButton speak = (ImageButton) findViewById(R.id.fishermanButton);
 		speak.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
@@ -166,10 +167,15 @@ public class MainActivity extends VoiceActivity {
 	 *      * It synthesizes a voice message
 	 */
 	private void indicateListening() {
+		/*
 		Button button = (Button) findViewById(R.id.speech_btn); //Obtains a reference to the button
 		button.setText(getResources().getString(R.string.speechbtn_listening)); //Changes the button's message to the text obtained from the resources folder
         button.getBackground().setColorFilter(ContextCompat.getColor(this, R.color.speechbtn_listening),PorterDuff.Mode.MULTIPLY);  //Changes the button's background to the color obtained from the resources folder
+		*/
+		Toast listeningNotification = Toast.makeText(MainActivity.this,"Escuchando",Toast.LENGTH_LONG);
+		listeningNotification.show();
 	}
+
 
 	/**
 	 * Provides feedback to the user to show that the app is idle:

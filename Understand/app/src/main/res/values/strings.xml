@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Understand</string>
+    <string name="app_name">Museo Caja Granada</string>
 
     <string name="nomatch_prompt">Sorry, I don\'t know how to answer to that</string>
     <string name="iderror_prompt">The app id, user key or bot name are invalid</string>
@@ -14,6 +14,8 @@
 
     <string name="speechbtn_default">Press to speak</string>
 	<string name="speechbtn_listening">I am listening!</string>
+
+    <string name="pescadorBarbate">Pescador de Barbate</string>
 	
 <!-- Colors -->
 	<color name="speechbtn_default">#EEEEEE</color>

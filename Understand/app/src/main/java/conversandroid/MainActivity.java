@@ -62,7 +62,7 @@ import ai.api.model.Result;
 
 public class MainActivity extends VoiceActivity {
 
-	private static final String LOGTAG = "UNDERSTAND";
+	private static final String LOGTAG = "Museo Caja Granada";
 	private TextView resultTextView;
 	private AIDataService aiDataService=null;
 

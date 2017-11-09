@@ -358,10 +358,11 @@ public class MainActivity extends VoiceActivity {
 
 					Log.d(LOGTAG,parameterString);
 					// Show results in TextView.
-					resultTextView.setText("Query:" + result.getResolvedQuery() +
+					/*resultTextView.setText("Query:" + result.getResolvedQuery() +
 							"\nAction: " + result.getAction() +
 							"\nParameters: " + parameterString);
-
+					*/
+					resultTextView.setText(respuesta);
 				}
 			}
 		}.execute(userQuery);

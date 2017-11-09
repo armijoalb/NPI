@@ -3,8 +3,8 @@
 
     <string name="app_name">Museo Caja Granada</string>
 
-    <string name="nomatch_prompt">Sorry, I don\'t know how to answer to that</string>
-    <string name="iderror_prompt">The app id, user key or bot name are invalid</string>
+    <string name="nomatch_prompt">Lo siento, no se como responder a eso</string>
+    <string name="iderror_prompt">El id no es válido ni la clave.</string>
     <string name="connectionerror_prompt">An error has occurred when trying to connect to Pandorabots</string>
     <string name="parseerror_prompt">An error has occurred while parsing the bot response</string>
 

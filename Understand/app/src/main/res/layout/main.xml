@@ -20,13 +20,11 @@
         android:id="@+id/resultTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
         android:layout_below="@+id/textView"
-        android:background="#ffffff"
-        android:textSize="20sp"
-        android:paddingTop="10dp"
-        android:paddingRight="8dp"
-        android:paddingLeft="8dp"/>
+        android:background="#d2fafa"
+        android:textSize="20sp" />
 
     <ImageButton
         android:id="@+id/fishermanButton"

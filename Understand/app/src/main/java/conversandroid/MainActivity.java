@@ -141,6 +141,13 @@ public class MainActivity extends VoiceActivity {
 					AIConfiguration.RecognitionEngine.System);
 			aiDataService = new AIDataService(this, config);
 			spanishLanguage = 0;
+			try {
+				setLocale("en");
+			}catch (Exception e){
+
+			}
+
+
 		}else{
 			AIConfiguration config = new AIConfiguration(accessToken,
 					subscriptionKey, AIConfiguration.SupportedLanguages.Spanish,
@@ -148,6 +155,11 @@ public class MainActivity extends VoiceActivity {
 			aiDataService = new AIDataService(this, config);
 			bttn.setImageResource(R.mipmap.flag_es);
 			spanishLanguage = 1;
+			try {
+				setLocale("es");
+			}catch (Exception e){
+
+			}
 		}
 	}
 

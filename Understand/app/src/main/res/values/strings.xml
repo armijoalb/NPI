@@ -16,6 +16,7 @@
 	<string name="speechbtn_listening">I am listening!</string>
 
     <string name="pescadorBarbate">Pescador de Barbate</string>
+
 	
 <!-- Colors -->
 	<color name="speechbtn_default">#EEEEEE</color>

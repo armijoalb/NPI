@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/alberto/NPI/Understand/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "outputFile": "C:\\Users\\Alberto\\Documents\\GitHub\\NPI\\Understand\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "/home/alberto/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/86c580db3aaec4c3d9820441957de92b/res/values-land/values-land.xml",
+                    "source": "C:\\Users\\Alberto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\94df755951f201ca6879e9bc616bd4a1\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "4,7,10,13,16,17",
                         "startColumns": "4,4,4,4,4,4",
@@ -23,10 +23,10 @@
             ]
         },
         {
-            "outputFile": "/home/alberto/Understand/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "outputFile": "C:\\home\\alberto\\NPI\\ConversationalInterface\\Understand\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "/home/alberto/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/86c580db3aaec4c3d9820441957de92b/res/values-land/values-land.xml",
+                    "source": "C:\\home\\alberto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\86c580db3aaec4c3d9820441957de92b\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "4,7,10,13,16,17",
                         "startColumns": "4,4,4,4,4,4",
@@ -45,10 +45,10 @@
             ]
         },
         {
-            "outputFile": "/home/alberto/Documentos/Universidad/NPI/P1/Understand/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "outputFile": "C:\\home\\alberto\\Understand\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "/home/alberto/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/86c580db3aaec4c3d9820441957de92b/res/values-land/values-land.xml",
+                    "source": "C:\\home\\alberto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\86c580db3aaec4c3d9820441957de92b\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "4,7,10,13,16,17",
                         "startColumns": "4,4,4,4,4,4",
@@ -67,10 +67,32 @@
             ]
         },
         {
-            "outputFile": "/home/alberto/NPI/ConversationalInterface/Understand/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "outputFile": "C:\\home\\alberto\\Documentos\\Universidad\\NPI\\P1\\Understand\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "/home/alberto/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/86c580db3aaec4c3d9820441957de92b/res/values-land/values-land.xml",
+                    "source": "C:\\home\\alberto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\86c580db3aaec4c3d9820441957de92b\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "4,7,10,13,16,17",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "280,568,875,1171,1470,1541",
+                        "endColumns": "61,71,69,63,70,67",
+                        "endOffsets": "337,635,940,1230,1536,1604"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,117,189,259,323,394",
+                        "endColumns": "61,71,69,63,70,67",
+                        "endOffsets": "112,184,254,318,389,457"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\home\\alberto\\NPI\\Understand\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "map": [
+                {
+                    "source": "C:\\home\\alberto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\86c580db3aaec4c3d9820441957de92b\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "4,7,10,13,16,17",
                         "startColumns": "4,4,4,4,4,4",

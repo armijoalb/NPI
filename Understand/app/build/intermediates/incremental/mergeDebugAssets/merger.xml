@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/home/alberto/Understand/app/src/main/assets"/><source path="/home/alberto/Understand/app/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/home/alberto/Understand/app/src/debug/assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="C:\Users\Alberto\Documents\GitHub\NPI\Understand\app\src\main\assets"/><source path="C:\Users\Alberto\Documents\GitHub\NPI\Understand\app\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="C:\Users\Alberto\Documents\GitHub\NPI\Understand\app\src\debug\assets"/></dataSet></merger>

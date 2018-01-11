@@ -31,6 +31,9 @@ import android.speech.RecognizerIntent;
 import android.speech.SpeechRecognizer;
 import android.support.v4.content.ContextCompat;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
@@ -104,6 +107,23 @@ public class MainActivity extends VoiceActivity {
 				AIConfiguration.RecognitionEngine.System);
 		aiDataService = new AIDataService(this, config);
 	}
+
+	@Override
+    public boolean onCreateOptionsMenu(Menu menu){
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu,menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item){
+        switch (item.getItemId()){
+            case R.id.action_settings:
+                Toast.makeText(this,"Opciones seleccionadas", Toast.LENGTH_LONG);
+                break;
+        }
+        return true;
+    }
 
 	/**
 	 * Initializes the search button and its listener. When the button is pressed, a feedback is shown to the user

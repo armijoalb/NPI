@@ -17,6 +17,7 @@
 
     <string name="pescadorBarbate">Pescador de Barbate</string>
 
+    <string name="opciones">Opciones</string>
 	
 <!-- Colors -->
 	<color name="speechbtn_default">#EEEEEE</color>

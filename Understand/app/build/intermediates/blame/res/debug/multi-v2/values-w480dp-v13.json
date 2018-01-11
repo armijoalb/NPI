@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/alberto/Understand/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w480dp-v13/values-w480dp-v13.xml",
+            "outputFile": "C:\\home\\alberto\\Documentos\\Universidad\\NPI\\P1\\Understand\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w480dp-v13\\values-w480dp-v13.xml",
             "map": [
                 {
-                    "source": "/home/alberto/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/86c580db3aaec4c3d9820441957de92b/res/values-w480dp/values-w480dp.xml",
+                    "source": "C:\\home\\alberto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\86c580db3aaec4c3d9820441957de92b\\res\\values-w480dp\\values-w480dp.xml",
                     "from": {
                         "startLines": "4,7",
                         "startColumns": "4,4",
@@ -23,10 +23,10 @@
             ]
         },
         {
-            "outputFile": "/home/alberto/NPI/ConversationalInterface/Understand/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w480dp-v13/values-w480dp-v13.xml",
+            "outputFile": "C:\\home\\alberto\\NPI\\ConversationalInterface\\Understand\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w480dp-v13\\values-w480dp-v13.xml",
             "map": [
                 {
-                    "source": "/home/alberto/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/86c580db3aaec4c3d9820441957de92b/res/values-w480dp/values-w480dp.xml",
+                    "source": "C:\\home\\alberto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\86c580db3aaec4c3d9820441957de92b\\res\\values-w480dp\\values-w480dp.xml",
                     "from": {
                         "startLines": "4,7",
                         "startColumns": "4,4",
@@ -45,10 +45,10 @@
             ]
         },
         {
-            "outputFile": "/home/alberto/Documentos/Universidad/NPI/P1/Understand/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w480dp-v13/values-w480dp-v13.xml",
+            "outputFile": "C:\\Users\\Alberto\\Documents\\GitHub\\NPI\\Understand\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w480dp-v13\\values-w480dp-v13.xml",
             "map": [
                 {
-                    "source": "/home/alberto/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/86c580db3aaec4c3d9820441957de92b/res/values-w480dp/values-w480dp.xml",
+                    "source": "C:\\Users\\Alberto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\94df755951f201ca6879e9bc616bd4a1\\res\\values-w480dp\\values-w480dp.xml",
                     "from": {
                         "startLines": "4,7",
                         "startColumns": "4,4",
@@ -67,10 +67,32 @@
             ]
         },
         {
-            "outputFile": "/home/alberto/NPI/Understand/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w480dp-v13/values-w480dp-v13.xml",
+            "outputFile": "C:\\home\\alberto\\Understand\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w480dp-v13\\values-w480dp-v13.xml",
             "map": [
                 {
-                    "source": "/home/alberto/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/86c580db3aaec4c3d9820441957de92b/res/values-w480dp/values-w480dp.xml",
+                    "source": "C:\\home\\alberto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\86c580db3aaec4c3d9820441957de92b\\res\\values-w480dp\\values-w480dp.xml",
+                    "from": {
+                        "startLines": "4,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "282,572",
+                        "endColumns": "61,71",
+                        "endOffsets": "339,639"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,117",
+                        "endColumns": "61,71",
+                        "endOffsets": "112,184"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\home\\alberto\\NPI\\Understand\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w480dp-v13\\values-w480dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\home\\alberto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\86c580db3aaec4c3d9820441957de92b\\res\\values-w480dp\\values-w480dp.xml",
                     "from": {
                         "startLines": "4,7",
                         "startColumns": "4,4",

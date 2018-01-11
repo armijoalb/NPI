@@ -17,12 +17,12 @@
     <application
         android:allowBackup="true"
         android:debuggable="true"
-        android:icon="@drawable/conversandroid"
+        android:icon="@mipmap/logo_museo"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
             android:name="conversandroid.MainActivity"
-            android:label="Understand" >
+            android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

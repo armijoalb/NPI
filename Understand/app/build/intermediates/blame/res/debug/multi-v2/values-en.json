@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Alberto\\Documents\\GitHub\\NPI\\Understand\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en\\values-en.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Alberto\\Documents\\GitHub\\NPI\\Understand\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "from": {
+                        "startLines": "2,4,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "57,180,114",
+                        "endColumns": "55,45,64",
+                        "endOffsets": "108,221,174"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,111,157",
+                        "endColumns": "55,45,64",
+                        "endOffsets": "106,152,217"
+                    }
+                }
+            ]
+        }
+    ]
+}

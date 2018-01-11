@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/alberto/Documentos/Universidad/NPI/P1/Understand/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml",
+            "outputFile": "C:\\home\\alberto\\Documentos\\Universidad\\NPI\\P1\\Understand\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
             "map": [
                 {
-                    "source": "/home/alberto/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/86c580db3aaec4c3d9820441957de92b/res/values-v22/values-v22.xml",
+                    "source": "C:\\home\\alberto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\86c580db3aaec4c3d9820441957de92b\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "4,5,6,9",
                         "startColumns": "4,4,4,4",
@@ -25,10 +25,10 @@
             ]
         },
         {
-            "outputFile": "/home/alberto/NPI/Understand/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml",
+            "outputFile": "C:\\home\\alberto\\Understand\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
             "map": [
                 {
-                    "source": "/home/alberto/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/86c580db3aaec4c3d9820441957de92b/res/values-v22/values-v22.xml",
+                    "source": "C:\\home\\alberto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\86c580db3aaec4c3d9820441957de92b\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "4,5,6,9",
                         "startColumns": "4,4,4,4",
@@ -49,10 +49,10 @@
             ]
         },
         {
-            "outputFile": "/home/alberto/NPI/ConversationalInterface/Understand/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml",
+            "outputFile": "C:\\home\\alberto\\NPI\\Understand\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
             "map": [
                 {
-                    "source": "/home/alberto/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/86c580db3aaec4c3d9820441957de92b/res/values-v22/values-v22.xml",
+                    "source": "C:\\home\\alberto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\86c580db3aaec4c3d9820441957de92b\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "4,5,6,9",
                         "startColumns": "4,4,4,4",
@@ -73,10 +73,34 @@
             ]
         },
         {
-            "outputFile": "/home/alberto/Understand/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml",
+            "outputFile": "C:\\home\\alberto\\NPI\\ConversationalInterface\\Understand\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
             "map": [
                 {
-                    "source": "/home/alberto/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/86c580db3aaec4c3d9820441957de92b/res/values-v22/values-v22.xml",
+                    "source": "C:\\home\\alberto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\86c580db3aaec4c3d9820441957de92b\\res\\values-v22\\values-v22.xml",
+                    "from": {
+                        "startLines": "4,5,6,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "285,360,447,628",
+                        "endLines": "4,5,8,11",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "355,442,623,816"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,7",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,398",
+                        "endLines": "2,3,6,9",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,393,586"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Alberto\\Documents\\GitHub\\NPI\\Understand\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Alberto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\94df755951f201ca6879e9bc616bd4a1\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "4,5,6,9",
                         "startColumns": "4,4,4,4",

@@ -1,4 +1,4 @@
-#Thu Nov 09 10:54:52 CET 2017
-base.0=C\:\\Users\\Alberto\\Documents\\GitHub\\NPI\\Understand\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\7
+#Tue Jan 23 18:24:25 CET 2018
+base.0=C\:\\Users\\Carmen Biedma\\Documents\\GitHub\\NPI\\Understand\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\26
+path.0=classes.dex
 renamed.0=classes.dex
-file.0=C\:\\Users\\Alberto\\Documents\\GitHub\\NPI\\Understand\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\7\\classes.dex

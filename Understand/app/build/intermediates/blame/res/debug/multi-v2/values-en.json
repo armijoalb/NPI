@@ -21,6 +21,28 @@
                     }
                 }
             ]
+        },
+        {
+            "outputFile": "C:\\Users\\Carmen Biedma\\Documents\\GitHub\\NPI\\Understand\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en\\values-en.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Carmen Biedma\\Documents\\GitHub\\NPI\\Understand\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "from": {
+                        "startLines": "-1,-1,3",
+                        "startColumns": "-1,-1,4",
+                        "startOffsets": "-1,-1,114",
+                        "endColumns": "-1,-1,61",
+                        "endOffsets": "-1,-1,171"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,111,157",
+                        "endColumns": "55,45,61",
+                        "endOffsets": "106,152,214"
+                    }
+                }
+            ]
         }
     ]
 }

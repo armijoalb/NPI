@@ -67,6 +67,7 @@ public class MainActivity extends VoiceActivity {
 
 	private static final String LOGTAG = "Museo Caja Granada";
 	private TextView resultTextView;
+	private TextView title;
 	private AIDataService aiDataService=null;
 
 	//TODO: INSERT YOUR CLIENT ACCESS KEY
@@ -98,6 +99,7 @@ public class MainActivity extends VoiceActivity {
 
 		//Set up text view to display results
 		resultTextView = (TextView) findViewById(R.id.resultTextView);
+		title = (TextView) findViewById(R.id.textView);
 
 		//Api.ai configuration parameters (the subscriptionkey is not longer mandatory, so you
 		//can use the new constructor without that parameter or keep this one which accepts any
@@ -156,17 +158,20 @@ public class MainActivity extends VoiceActivity {
 	private void changeDisplayedLanguage(ImageButton bttn){
 		if(spanishLanguage == 1) {
 			bttn.setImageResource(R.mipmap.flag_uk);
+			title.setText("Barbate Fisherman");
 			AIConfiguration config = new AIConfiguration(accessToken,
 					subscriptionKey, AIConfiguration.SupportedLanguages.English,
 					AIConfiguration.RecognitionEngine.System);
 			aiDataService = new AIDataService(this, config);
 			spanishLanguage = 0;
+
 		}else{
 			AIConfiguration config = new AIConfiguration(accessToken,
 					subscriptionKey, AIConfiguration.SupportedLanguages.Spanish,
 					AIConfiguration.RecognitionEngine.System);
 			aiDataService = new AIDataService(this, config);
 			bttn.setImageResource(R.mipmap.flag_es);
+			title.setText("Pescador de Barbate");
 			spanishLanguage = 1;
 		}
 	}
